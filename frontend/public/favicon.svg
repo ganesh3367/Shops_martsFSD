@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Furnit favicon">
+  <rect width="64" height="64" rx="16" fill="#1c1917"/>
+  <path d="M20 24a4 4 0 0 1 4-4h16a4 4 0 0 1 4 4v12H20V24Z" fill="#c8a45d"/>
+  <path d="M18 36h28a4 4 0 0 1 4 4v4H14v-4a4 4 0 0 1 4-4Z" fill="#f5f1ea"/>
+  <path d="M18 44v6M46 44v6" stroke="#f5f1ea" stroke-width="4" stroke-linecap="round"/>
+  <path d="M24 20v-4M40 20v-4" stroke="#c8a45d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M26 30h12" stroke="#1c1917" stroke-width="4" stroke-linecap="round" opacity=".55"/>
+</svg>
