@@ -2,3 +2,4 @@
 2026-04-21T16:00:00: Refine backend models and config
 2026-04-22T15:00:00: Optimize frontend bundle size
 2026-04-23T10:00:00: Research currency localization for INR
+2026-04-23T14:00:00: Plan migration from USD to INR
