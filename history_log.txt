@@ -5,3 +5,4 @@
 2026-04-23T14:00:00: Plan migration from USD to INR
 2026-04-24T09:00:00: Update product cards for new currency symbol
 2026-04-24T13:00:00: Implement currency formatting utility
+2026-04-24T17:00:00: Test currency display on mobile views
