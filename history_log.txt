@@ -13,3 +13,4 @@
 2026-04-26T10:00:00: Adjust font weights for Rupee symbol
 2026-04-26T12:00:00: Update free shipping threshold to ₹83,000
 2026-04-26T16:00:00: Performance optimization for price calculations
+2026-04-26T18:00:00: Cross-browser testing for special characters
