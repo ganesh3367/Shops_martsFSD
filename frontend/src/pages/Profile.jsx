@@ -248,7 +248,7 @@ const OrdersTab = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <StatusBadge status={order.status} />
-                  <p className="text-sm font-bold text-primary">${order.totalAmount?.toFixed(2)}</p>
+                  <p className="text-sm font-bold text-primary">₹{order.totalAmount?.toFixed(2)}</p>
                 </div>
               </div>
               {order.items?.map((item, i) => (
@@ -260,7 +260,7 @@ const OrdersTab = () => {
                     <p className="text-sm font-medium text-primary truncate">{item.name}</p>
                     <p className="text-xs text-stone-400">Qty: {item.quantity}</p>
                   </div>
-                  <p className="text-sm font-semibold text-primary">${(item.price * item.quantity).toFixed(2)}</p>
+                  <p className="text-sm font-semibold text-primary">₹{(item.price * item.quantity).toFixed(2)}</p>
                 </div>
               ))}
             </div>
@@ -309,7 +309,7 @@ const WishlistTab = () => {
                 </div>
                 <div className="mt-3 px-0.5">
                   <p className="text-sm font-semibold text-primary leading-snug truncate">{item.name}</p>
-                  <p className="text-sm font-bold text-accent mt-1">${item.price}</p>
+                  <p className="text-sm font-bold text-accent mt-1">₹{item.price}</p>
                 </div>
               </Link>
               <button

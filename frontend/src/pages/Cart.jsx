@@ -46,7 +46,7 @@ const Cart = () => {
                     <h3 className="font-medium">{item.name}</h3>
                     <p className="text-sm text-gray-500 mt-1">{item.category}</p>
                   </div>
-                  <p className="font-bold">${item.price}</p>
+                  <p className="font-bold">₹{item.price}</p>
                 </div>
                 <div className="flex justify-between items-end">
                   <div className="flex items-center border border-gray-200">
@@ -86,7 +86,7 @@ const Cart = () => {
           <div className="space-y-4 text-sm">
             <div className="flex justify-between text-gray-600">
               <span>Subtotal</span>
-              <span>${total.toFixed(2)}</span>
+              <span>₹{total.toFixed(2)}</span>
             </div>
             <div className="flex justify-between text-gray-600">
               <span>Shipping</span>
@@ -94,14 +94,14 @@ const Cart = () => {
             </div>
             <div className="pt-4 border-t border-gray-200 flex justify-between text-lg font-bold">
               <span>Total</span>
-              <span>${total.toFixed(2)}</span>
+              <span>₹{total.toFixed(2)}</span>
             </div>
           </div>
           <button className="w-full mt-8 bg-primary text-white py-4 font-bold hover:bg-gray-800 transition-all uppercase tracking-widest text-sm">
             Checkout
           </button>
           <p className="text-xs text-gray-500 text-center mt-4 italic">
-            Free shipping on orders over $1000.
+            Free shipping on orders over ₹83000.
           </p>
         </div>
       </div>

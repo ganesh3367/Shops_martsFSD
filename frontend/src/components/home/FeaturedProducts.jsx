@@ -11,7 +11,7 @@ const featured = [
   {
     id: 1,
     name: 'Minimalist Oak Chair',
-    price: 299,
+    price: 24817,
     category: 'Chairs',
     tag: 'Bestseller',
     image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&q=80&w=600',
@@ -19,7 +19,7 @@ const featured = [
   {
     id: 2,
     name: 'Velvet Emerald Sofa',
-    price: 899,
+    price: 74617,
     category: 'Sofas',
     tag: 'New Arrival',
     image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=600',
@@ -27,7 +27,7 @@ const featured = [
   {
     id: 3,
     name: 'Marble Coffee Table',
-    price: 450,
+    price: 37350,
     category: 'Tables',
     tag: 'Popular',
     image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=600',
@@ -35,7 +35,7 @@ const featured = [
   {
     id: 4,
     name: 'Woven Rattan Armchair',
-    price: 389,
+    price: 32287,
     category: 'Chairs',
     tag: null,
     image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&q=80&w=600',
@@ -149,7 +149,7 @@ const FeaturedProducts = () => {
                       {product.category}
                     </p>
                   </div>
-                  <p className="text-sm font-bold text-primary shrink-0">${product.price}</p>
+                  <p className="text-sm font-bold text-primary shrink-0">₹{product.price}</p>
                 </div>
               </Link>
             </motion.div>

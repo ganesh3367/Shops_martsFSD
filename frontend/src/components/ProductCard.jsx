@@ -81,7 +81,7 @@ const ProductCard = ({ product }) => {
           </h3>
           <p className="text-xs text-stone-400 mt-0.5 uppercase tracking-wide">{product.category}</p>
         </div>
-        <p className="text-sm font-bold text-primary shrink-0">${product.price}</p>
+        <p className="text-sm font-bold text-primary shrink-0">₹{product.price}</p>
       </div>
     </Link>
   );

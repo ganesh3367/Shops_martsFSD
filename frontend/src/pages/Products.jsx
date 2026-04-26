@@ -5,14 +5,14 @@ import ProductCard from '../components/ProductCard';
 import { SkeletonGrid } from '../components/SkeletonCard';
 
 const allProducts = [
-  { id: 1, name: 'Minimalist Oak Chair', price: 299, category: 'Chairs', image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&q=80&w=600' },
-  { id: 2, name: 'Velvet Emerald Sofa', price: 899, category: 'Sofas', image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=600' },
-  { id: 3, name: 'Marble Coffee Table', price: 450, category: 'Tables', image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=600' },
-  { id: 4, name: 'Scandi Desk Lamp', price: 89, category: 'Lighting', image: 'https://images.unsplash.com/photo-1507473884658-c70b5b5f0962?auto=format&fit=crop&q=80&w=600' },
-  { id: 5, name: 'Oak Dining Table', price: 1200, category: 'Tables', image: 'https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&q=80&w=600' },
-  { id: 6, name: 'Woven Rattan Armchair', price: 389, category: 'Chairs', image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&q=80&w=600' },
-  { id: 7, name: 'Linen Accent Chair', price: 349, category: 'Chairs', image: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&q=80&w=600' },
-  { id: 8, name: 'Walnut Bookshelf', price: 599, category: 'Storage', image: 'https://images.unsplash.com/photo-1594484208280-efa00f96fc21?auto=format&fit=crop&q=80&w=600' },
+  { id: 1, name: 'Minimalist Oak Chair', price: 24817, category: 'Chairs', image: 'https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&q=80&w=600' },
+  { id: 2, name: 'Velvet Emerald Sofa', price: 74617, category: 'Sofas', image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&q=80&w=600' },
+  { id: 3, name: 'Marble Coffee Table', price: 37350, category: 'Tables', image: 'https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&q=80&w=600' },
+  { id: 4, name: 'Scandi Desk Lamp', price: 7387, category: 'Lighting', image: 'https://images.unsplash.com/photo-1507473884658-c70b5b5f0962?auto=format&fit=crop&q=80&w=600' },
+  { id: 5, name: 'Oak Dining Table', price: 99600, category: 'Tables', image: 'https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&q=80&w=600' },
+  { id: 6, name: 'Woven Rattan Armchair', price: 32287, category: 'Chairs', image: 'https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&q=80&w=600' },
+  { id: 7, name: 'Linen Accent Chair', price: 28967, category: 'Chairs', image: 'https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&q=80&w=600' },
+  { id: 8, name: 'Walnut Bookshelf', price: 49717, category: 'Storage', image: 'https://images.unsplash.com/photo-1594484208280-efa00f96fc21?auto=format&fit=crop&q=80&w=600' },
 ];
 
 const categories = ['All', 'Chairs', 'Sofas', 'Tables', 'Lighting', 'Storage'];

@@ -15,7 +15,7 @@ const ProductDetails = () => {
   const product = {
     id,
     name: 'Minimalist Oak Chair',
-    price: 299,
+    price: 24817,
     category: 'Chairs',
     description: 'The Oak Chair combines timeless Scandinavian design with premium comfort. Crafted from solid white oak with a durable matte finish, it features a contoured seat and backrest that provide excellent support for long hours of seating. Perfect for dining rooms, home offices, or as an accent piece in your living space.',
     images: [
@@ -63,7 +63,7 @@ const ProductDetails = () => {
               <span className="text-black">{product.name}</span>
             </nav>
             <h1 className="text-4xl font-bold tracking-tight">{product.name}</h1>
-            <p className="mt-4 text-2xl font-bold text-accent">${product.price}</p>
+            <p className="mt-4 text-2xl font-bold text-accent">₹{product.price}</p>
           </div>
 
           <p className="text-gray-600 leading-relaxed">

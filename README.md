@@ -21,9 +21,7 @@ The project demonstrates how a frontend web application can be built, tested, an
 
 ### Frontend
 
-* HTML5
-* CSS3
-* JavaScript
+react 
 
 ### DevOps
 
