@@ -10,3 +10,4 @@
 2026-04-25T14:00:00: Refactor order history to support multiple currencies
 2026-04-25T18:00:00: Fix wishlist price display bug
 2026-04-26T08:00:00: Final audit of currency symbols
+2026-04-26T10:00:00: Adjust font weights for Rupee symbol
